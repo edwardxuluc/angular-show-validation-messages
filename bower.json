@@ -1,0 +1,19 @@
+{
+  "name": "show-error-message",
+  "main": "show-error-message.js",
+  "authors": [
+    "Edward paulino <edward.xuluc@creatibot.com>"
+  ],
+  "description": "muestra los mensajes de error de las validaciones de un formulario",
+  "keywords": [
+    "show",
+    "error",
+    "message",
+    "angular",
+    "validations",
+    "form",
+    "submit"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
