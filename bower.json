@@ -15,5 +15,6 @@
     "submit"
   ],
   "license": "MIT",
-  "homepage": ""
+  "homepage": "",
+  "version": "0.0.1"
 }
