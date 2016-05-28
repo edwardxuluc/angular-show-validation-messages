@@ -1,6 +1,6 @@
 {
-  "name": "show-error-message",
-  "main": "show-error-message.js",
+  "name": "show-validation-messages",
+  "main": "show-validation-messages.js",
   "authors": [
     "Edward paulino <edward.xuluc@creatibot.com>"
   ],
