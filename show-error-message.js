@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('submit.error.focus', [])
+angular.module('show.error.message', [])
 
 .constant('showErrorList', [
 	{ name : 'required', message : 'es requerido.' },
