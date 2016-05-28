@@ -7,8 +7,8 @@
   "description": "muestra los mensajes de error de las validaciones de un formulario",
   "keywords": [
     "show",
-    "error",
-    "message",
+    "validations",
+    "messages",
     "angular",
     "validations",
     "form",
