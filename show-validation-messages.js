@@ -73,8 +73,8 @@ angular.module('show.validation.messages', [])
 
         	// DETERMINAR SI HAY MENSAKES PERSONALIZADOS O SI SE USAR LOS MENSAJES POR DEFAULT
         	angular.forEach( showValidationList, function ( item, index ){
-        		// console.log( item );
-        		scope.errorMessages[ item.name ] = attributes[ item.name + 'Message' ] || item.message;
+                var mensaje = attributes[ item.name + 'Message' ] || item.message;
+                scope.errorMessages[ item.name ] = input.charAt(0).toUpperCase() + input.substr(1);
         	})
         },
         template : createTemplate(),
