@@ -50,7 +50,7 @@ angular.module('show.validation.messages', [])
 		var template = '<p class="help-block">';
 
 		angular.forEach( showValidationList, function ( error ){
-			template += '<span ng-show="$parent.{{form}}.{{name}}.$error.'+ error.name +' && !$parent.{{form}}.{{name}}.$pristine">{{errorMessages[\''+ error.name +'\'].replace(\'%s%\', title )}} </span>';
+			template += '<span ng-show="$parent.{{form}}[\'{{name}}\'].$error.'+ error.name +' && !$parent.{{form}}[\'{{name}}\'].$pristine">{{errorMessages[\''+ error.name +'\'].replace(\'%s%\', title )}} </span>';
 		})
 
 		template += '</p>';
