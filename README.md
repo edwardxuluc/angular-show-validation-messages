@@ -41,7 +41,6 @@ angular.module('myModule', ['show.validation.messages']);
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <input type="text" name="usuario" ng-model="usuario.usuario" ng-required="true" class="form-control" placeholder="Usuario">
-            
             <show-validation-messages form="usuarioForm" name="usuario" title="Usuario"></show-validation-messages>
         </div>    
     </div>

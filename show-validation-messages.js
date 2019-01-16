@@ -79,4 +79,4 @@ angular.module('show.validation.messages', [])
         },
         template : createTemplate(),
     };
-})
+});
